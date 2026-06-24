@@ -10,7 +10,7 @@ sites behind a login without signing in every time.
 
 ![Next.js 16](https://img.shields.io/badge/Next.js-16-black) ![AI SDK v6](https://img.shields.io/badge/Vercel%20AI%20SDK-v6-black)
 
-![The web agent browsing Amazon live, using a saved browser profile, to check the price of a carton of Coke Zero](.github/assets/demo.png)
+![The web agent browsing Amazon live, using a saved browser profile, to check the price of a carton of Coke Zero](.github/assets/demo-live-view.png)
 
 > Watching the TinyFish agent browse Amazon live, signed in via a saved browser
 > profile, to look up a price — embedded right in the chat.
