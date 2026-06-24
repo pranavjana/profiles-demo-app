@@ -15,9 +15,8 @@ export const openrouter = createOpenRouter({
 });
 
 /**
- * The model the chat uses. Any OpenRouter model slug works here — swap it for
- * `openai/gpt-4o`, `google/gemini-2.5-pro`, `meta-llama/llama-3.3-70b-instruct`,
- * etc. It must support tool calling for the TinyFish web agent tool to fire.
+ * The model the chat uses. Any OpenRouter model slug that supports tool calling
+ * works here (tool calling is required for the TinyFish web agent tool to fire).
  *
  * Override it without touching code by setting `OPENROUTER_MODEL` in `.env.local`.
  */

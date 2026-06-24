@@ -55,7 +55,7 @@ cp .env.example .env.local
 OPENROUTER_API_KEY=...   # https://openrouter.ai/keys
 TINYFISH_API_KEY=...     # https://agent.tinyfish.ai/api-keys
 # Optional — any tool-calling model slug:
-OPENROUTER_MODEL=anthropic/claude-3.5-sonnet
+OPENROUTER_MODEL=openai/gpt-5.4-mini
 ```
 
 ### 3. Run
@@ -115,9 +115,9 @@ call with `useProfile: true` reuses it.
 
 ## Swapping the model
 
-Set `OPENROUTER_MODEL` to any [OpenRouter model](https://openrouter.ai/models)
-that supports tool calling — e.g. `openai/gpt-4o`, `google/gemini-2.5-pro`,
-`anthropic/claude-3.5-sonnet`. No code changes needed.
+The default is `openai/gpt-5.4-mini`. Set `OPENROUTER_MODEL` to any other
+[OpenRouter model](https://openrouter.ai/models) that supports tool calling to
+swap it out — no code changes needed.
 
 ## Deploy
 
